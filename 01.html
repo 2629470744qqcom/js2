@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD HTML 4.01 Strict//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html>
+<head>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+<script type="text/javascript" src=""></script>
+<title>在此插入标题</title>
+</head>
+<body>
+	<p id="p1">浏览器解析html代码是按照先后顺序的。</p>
+	<p id="p2">js代码写在head和body之间</p>
+	<p id="p3">js代码结束要用分号结尾</p>
+	<p id="p4">js用户体验，动态效果实现</p>
+</body>
+<script type="text/javascript">
+   function add2(){
+	   var num=3+2;
+	   alert(num);
+   }
+   add2();//函数一定要调用
+	var 变量名;//变量名命名规则：使用字母，下划线或者$开头，不包括关键字，变量名区分大小写。
+	var mynum=10;
+	if(mynum<10){
+		document.write("你还不能升二年级"+"<br/>"+"因为你未满10周岁");
+	}else{
+		document.write("你可以升二年级了"+"<br/>"+"因为你已经十周岁了")
+	}
+	//alert("hello");//该语句在页面弹出一个提示框。
+	document.write("<br/>"+"nihaoa  ")
+	document.getElementById("p1").style.color = "blue";
+</script>
+</html>
